@@ -222,4 +222,7 @@ The application implements comprehensive error handling on both the frontend and
 ## Contributors
 
 - Rusith Hansana - Developer
-  
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
