@@ -7,8 +7,7 @@
   "scripts": {
     "dev": "concurrently \"npm run server\" \"npm run client\"",
     "client": "cd client && npm run dev",
-    "build:client": "npm run build --prefix client",
-    "install:all": "npm install && npm install --prefix client",
+    "build": "npm install && npm install --prefix client && npm run build --prefix client",
     "server": "nodemon server/server.js",
     "start": "node server/server.js",
     "seed": "node server/seed/seed.js",
